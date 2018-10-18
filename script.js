@@ -72,30 +72,30 @@ const allQuestions6 = [
 const allQuestions7 = [
   {questionAsked: 'Which semantic tag is designed for<br> content which would make sense on another page? ', correctAnswer: 'article', options: ['article', 'section', 'div']},
   {questionAsked: 'Which event is fired when a form button is clicked?', correctAnswer: 'onsubmit', options: ['onsubmit', 'onclick', 'onload']},
-  {questionAsked: 'Where would meta-data go?', correctAnswer: 'in the head', options: ['in the head', 'in the body', 'in tesco']},
-  {questionAsked: 'How many h1s should you have on a page?', correctAnswer: '1', options: ['1', '2', 'as many as possible']},
-  {questionAsked: 'What is the difference between<br>< ol > and < ul >', correctAnswer: 'numbered/bullets', options: ['numbered/bullets', 'ordinary/ugly', 'over/under']}
+  {questionAsked: 'Which one of these is not a valid input type?', correctAnswer: 'postcode', options: ['postcode', 'password', 'time']},
+  {questionAsked: 'How many levels of header are there?', correctAnswer: '6', options: ['6', '5', '8']},
+  {questionAsked: 'Which of these is the correct format for inline style?', correctAnswer: 'style=”color: red;”', options: ['style=”color: red;”', 'color:  red;', 'css=”color: red”']}
 ];
 const allQuestions8 = [
-  {questionAsked: 'What does the G in RGBA stand for?', correctAnswer: 'green', options: ['green', 'google', 'gold']},
-  {questionAsked: 'What does the A in RGBA stand for?', correctAnswer: 'alpha', options: ['alpha', 'aubergine', 'auric']},
-  {questionAsked: 'What colour would # ff0000 make?', correctAnswer: 'red', options: ['red', 'blue', 'green']},
-  {questionAsked: 'How would you declare<br>that a box is a flex-box', correctAnswer: 'display : flex', options: ['display : flex', 'flexible', 'flex-wrap']},
-  {questionAsked: 'in what order does CSS run? ', correctAnswer: 'top to bottom', options: ['top to bottom', 'bottom to top', 'right to left']}
+  {questionAsked: 'Which of these selects all but the last li in an ul? ', correctAnswer: 'ul li:not(:last-child)', options: ['ul li:not(:last-child)', 'ul li:not(ul li:last-child)', 'ul:not(:last-child)']},
+  {questionAsked: 'Which of these gives you semi transparent yellow?', correctAnswer: '#ff07', options: ['#ff07', '#0ff7', '#ff0']},
+  {questionAsked: 'Which of these is not a valid property that can be used with background-size', correctAnswer: 'tile', options: ['tile', 'cover', 'inherit']},
+  {questionAsked: 'Which of these removes bullets from the lis in a ul?', correctAnswer: 'list-style: none', options: ['list-style: none', 'bullet-style: none', 'li-style: hidden']},
+  {questionAsked: 'Which of these Bulma classes does not make the <br>div into a column that’s half<br> the width of its parent? ', correctAnswer: 'is-one-half', options: ['is-one-half', 'is-half', 'is-6']}
 ];
 const allQuestions9 = [
-  {questionAsked: 'Which of these can contain objects?', correctAnswer: 'both', options: ['both', 'object', 'array']},
-  {questionAsked: 'Which of these would<br>you use print into HTML?', correctAnswer: 'the DOM', options: ['the DOM', '.push', '.pull']},
-  {questionAsked: 'Which of these would<br>you use to remove<br>an item from an array?', correctAnswer: '.pull', options: ['.pull', '.push', '.event']},
-  {questionAsked: 'Which of these would<br>you use to call a function?', correctAnswer: '()', options: ['()', '.call', 'call-function']},
-  {questionAsked: 'How would you check the length of an array', correctAnswer: '.length', options: ['.length', 'how.long', 'length.checker']}
+  {questionAsked: 'Which of these is not a valid method we can use on an array?', correctAnswer: 'replace', options: ['replace', 'some', 'every']},
+  {questionAsked: 'What do we get when we minus 1 from undefined?', correctAnswer: 'NaN', options: ['NaN', '-1', 'undefined']},
+  {questionAsked: 'Which of these does not return true?', correctAnswer: '0 && {},', options: ['0 && {},', 'false || {}', '[] && false']},
+  {questionAsked: 'What data type does this always point to?', correctAnswer: 'object', options: ['object', 'boolean', 'string']},
+  {questionAsked: 'How do you prevent a form from submitting when the button is clicked?', correctAnswer: 'event.preventDefault()', options: ['event.preventDefault()', 'event.target.preventDefault()', 'this.preventDefault()']}
 ];
 const allQuestions10 = [
-  {questionAsked: 'Which of these can contain objects?', correctAnswer: 'both', options: ['both', 'object', 'array']},
-  {questionAsked: 'Which of these would<br>you use print into HTML?', correctAnswer: 'the DOM', options: ['the DOM', '.push', '.pull']},
-  {questionAsked: 'Which of these would<br>you use to remove<br>an item from an array?', correctAnswer: '.pull', options: ['.pull', '.push', '.event']},
-  {questionAsked: 'Which of these would<br>you use to call a function?', correctAnswer: '()', options: ['()', '.call', 'call-function']},
-  {questionAsked: 'How would you check the length of an array', correctAnswer: '.length', options: ['.length', 'how.long', 'length.checker']}
+  {questionAsked: 'What is the correct syntax to get a SCSS file to link to a CSS file?', correctAnswer: 'sass --watch scss/style.scss:css/style.css', options: ['sass --watch scss/style.scss:css/style.css', 'sass -watch scss/style.scss:css/style.css', 'sass --watch scss/style.scss-css/style.css']},
+  {questionAsked: 'Which of these is not possible to do in a single function or line of code in JavaScript? ', correctAnswer: 'stop audio and send it back to the beginning', options: ['stop audio and send it back to the beginning', 'pause audio', 'changing the volume of audio']},
+  {questionAsked: 'What does ECMA in ECMAScript stand for?', correctAnswer: 'European Computer Manufacturers Association', options: ['European Computer Manufacturers Association', 'false || {}', '[] && false']},
+  {questionAsked: 'What is the correct syntax to set a date to UK format?', correctAnswer: '.toLocaleDateString(‘en-GB’)', options: ['.toLocaleDateString(‘en-GB’)', '.toLocaleDateString(‘gb-en’)', '.toLocaleDateString(‘en, gb’)']},
+  {questionAsked: 'Which of these is the correct way to delete a directory <br>(that is not empty) and its contents?', correctAnswer: 'rm -rf directory-name', options: ['rm -rf directory-name', 'rm directory-name', 'rmdir directory-name']}
 ];
 
 const allQuestions = [
