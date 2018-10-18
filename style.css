@@ -82,17 +82,17 @@ main {
   background-size: cover;
 }
 .q-css {
-  background: url('/Users/grantwilkinson/development/my-experiments/images/internet css.png');
+  background: url('https://i.imgur.com/czVXMzD.png');
   background-position: center;
   background-size: cover;
 }
 .q-js {
-  background: url('/Users/grantwilkinson/development/my-experiments/images/adobe dreamweaver js.png');
+  background: url('https://i.imgur.com/zreAKHp.png');
   background-position: center;
   background-size: cover;
 }
 .final {
-  background: url('/Users/grantwilkinson/development/my-experiments/images/robs_head.png');
+  background: url('https://i.imgur.com/Buq3CGn.png');
   background-position: center;
   background-size: cover;
 }
@@ -165,7 +165,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/Users/grantwilkinson/development/my-experiments/images/good_job.png');
+  background: url('https://i.imgur.com/5FUiEIr.png');
   background-size: cover;
 }
 .blackboard {
@@ -187,7 +187,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('/Users/grantwilkinson/development/my-experiments/images/rob_wrong.png');
+  background: url('https://i.imgur.com/1FnsMWz.png');
   background-size: cover;
 }
 .answer-styles {
@@ -197,4 +197,7 @@ main {
     0%   {background-color: #0066ff; z-index: 3}
     50%  {background-color: #ccffff; z-index: 3}
     /* 100% {background-color: #0066ff; z-index: 3} */
+}
+.winner-page {
+  display: none;
 }
