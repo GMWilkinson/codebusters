@@ -13,18 +13,6 @@ My instructor has very kindly allowed me to use images of him as the quiz master
 ![Codebusters](/Users/grantwilkinson/development/my-experiments/screenshots/Screen Shot 2018-10-18 at 09.42.04.png)
 This is my first project and I have received an abundance of help from the instructors at GA and my classmates.
 
-
-
-# Future updates
-
-* A winner screen for if the game is completed
-* Instructions
-* Available and completed columns will be distinguishable
-* audio
-* Mobile and tablet responsive. On mobile the CSS will be completely different eg; The questions will cover the whole screen
-* Refactoring
-* I may have to change the colour of the questions, I tried to make it look like whiteboard marker
-
 # Code snippets
 
 This is the layout of the object arrays that contain the questions and answers.
@@ -55,4 +43,32 @@ function handleColumns(boxDivs, color, questionFunction) {
     );
   }
 }
-}```
+}
+```
+
+# Technologies
+
+* HTML
+* CSS3
+* JavaScript
+
+# Challenges
+
+* It took quite a long time to come up with the idea of using object arrays to separate each column of questions. By having all of the questions in an array it became much easier to randomise by column
+* At first I had a separate function for each of the columns to check for clicks and activate the question popups. But the code looked terrible. This project taught me a lot about how to use loops to refactor your code
+* I'd never heard of the z-index CSS key before this project but it is really helpful and is the only way that I could get the questions and correct/wrong answer popups to appear over the top
+of the page
+
+# Future updates
+
+* Instructions
+* Available and completed columns will be distinguishable
+* audio
+* Mobile and tablet responsive. On mobile the CSS will be completely different eg; The questions will cover the whole screen
+* Refactoring
+* I may have to change the colour of the questions, I tried to make it look like whiteboard marker
+
+# Bugs
+
+* When the user completes the board it gets stuck
+* At any screen size other than MacBook Pro. The questions don't fit on the computer image. Looks terrible.
